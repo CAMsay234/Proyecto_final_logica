@@ -7,3 +7,6 @@ Repositorio con el seguimiento y trabajo para el proyecto final para lógica de 
 ### Integrantes del equipo.
 >- _😎Camilo Velasquez Hincapie😎_
 >- _😎Miguel Angel Velez Suarez😎_
+
+### Recursos.
+-[dirección de la imagen](https://i.blogs.es/53044d/java/1366_521.jpg)
