@@ -26,3 +26,17 @@ Al subir el archivo programa no se ha puesto el nombre correcto en el git bash.
 ## *¿Que vamos a hacer? 👌
 
 Esperar a que se dé el enunciado oficial de lo que se debe realizar en el proyecto para empezar con este.
+
+# 13 de abril
+## *¿Que se hizo la reunion anterior? 👊
+
+Se realizo seguimiento al proyecto y se terminaron de subir algunos comits para pulir los archivos ya establecidos.
+
+## *¿Que dificultades hay? 🤔
+
+Por el momento no encontramos ninguna dificultad en la realización del proyecto.
+
+## *¿Que vamos a hacer? 👌
+Añadimos el fork del repositorio del profesor con las canciones en tipo de archivo midi.
+Se creo el clone para poder subir la canción con la cual aportamos para el proyecto final.
+Se suben los nuevos cambios con el archivo midi de nuestra canción y la letra para el repositorio del profesor.
