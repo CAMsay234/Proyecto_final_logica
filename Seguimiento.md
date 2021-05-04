@@ -51,7 +51,17 @@ Añadir la canción de archivo midi y letra al repositorio del profesor.
 El jueves 29 no nos pudimos reunir porque Camilo tuvo cita medica.
 
 ## *¿Que vamos a hacer? 👌
-Vamos a actualizar la ruta en la letra de la canción para añadir el mid.
+Vamos a actualizar la ruta en la letra de la canción para añadir el midi.
 Empezar a establecer lo que se va a hacer con el proyecto final.
 
+# 4 de mayo
+## *¿Que se hizo la reunion anterior? 👊
 
+Establecimos el lineamiento y el proceso del proyecto final para dar nuevas funcionalidades
+
+## *¿Que dificultades hay? 🤔
+
+Hay que añadir la estructura base del proyecto para editar e implementar elementos nuevos
+
+## *¿Que vamos a hacer? 👌
+Comenzar a procesar el codigo en pseudocodigo para establecer una linea de trabajo clara y objetiva
