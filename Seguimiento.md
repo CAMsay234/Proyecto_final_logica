@@ -40,3 +40,18 @@ Por el momento no encontramos ninguna dificultad en la realización del proyecto
 Añadimos el fork del repositorio del profesor con las canciones en tipo de archivo midi.
 Se creo el clone para poder subir la canción con la cual aportamos para el proyecto final.
 Se suben los nuevos cambios con el archivo midi de nuestra canción y la letra para el repositorio del profesor.
+
+# 3 de mayo
+## *¿Que se hizo la reunion anterior? 👊
+
+Añadir la canción de archivo midi y letra al repositorio del profesor.
+
+## *¿Que dificultades hay? 🤔
+
+El jueves 29 no nos pudimos reunir porque Camilo tuvo cita medica.
+
+## *¿Que vamos a hacer? 👌
+Vamos a actualizar la ruta en la letra de la canción para añadir el mid.
+Empezar a establecer lo que se va a hacer con el proyecto final.
+
+
