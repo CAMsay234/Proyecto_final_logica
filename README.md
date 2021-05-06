@@ -1,4 +1,4 @@
-# Proyecto_final_logica
+# Proyecto_final_logica Karokeando
 ![N|Solid](https://image.freepik.com/vector-gratis/diseno-banner-fiesta-karaoke_95169-774.jpg)
 
 ## Descripción del proyecto.
