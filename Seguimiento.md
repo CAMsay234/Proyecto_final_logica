@@ -65,3 +65,15 @@ Hay que añadir la estructura base del proyecto para editar e implementar elemen
 
 ## *¿Que vamos a hacer? 👌
 Comenzar a procesar el codigo en pseudocodigo para establecer una linea de trabajo clara y objetiva
+
+# 6 de mayo
+## *¿Que se hizo la reunion anterior? 👊
+
+Dimos prioridades a los aspectos del repositorio original para editar le archivo fuente y ponernos de acuerdo en la nueva funcionalidad 
+
+## *¿Que dificultades hay? 🤔
+
+No hemos tenido el tiempo para realizar los cambios pertinentes al codigo fuente 
+
+## *¿Que vamos a hacer? 👌
+Procesar el pseudocodigo y convertirlo el lineas de codigo dentro del programa y hacer las pruebas de escritorio
