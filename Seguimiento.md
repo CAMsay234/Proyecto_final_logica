@@ -76,4 +76,5 @@ Dimos prioridades a los aspectos del repositorio original para editar le archivo
 No hemos tenido el tiempo para realizar los cambios pertinentes al codigo fuente 
 
 ## *¿Que vamos a hacer? 👌
-Procesar el pseudocodigo y convertirlo el lineas de codigo dentro del programa y hacer las pruebas de escritorio
+Procesar el pseudocodigo, convertirlo el lineas de codigo dentro del programa y hacer las pruebas de escritorio.
+Se inicio el interfaz gráfico del proyecto con el nombre karokeando.
