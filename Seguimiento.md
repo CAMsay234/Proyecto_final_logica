@@ -78,3 +78,15 @@ No hemos tenido el tiempo para realizar los cambios pertinentes al codigo fuente
 ## *¿Que vamos a hacer? 👌
 Procesar el pseudocodigo, convertirlo el lineas de codigo dentro del programa y hacer las pruebas de escritorio.
 Se inicio el interfaz gráfico del proyecto con el nombre karokeando.
+
+# 11 de mayo
+## *¿Que se hizo la reunion anterior? 👊
+
+Eliminamos y administramos el repositorio para trabajar solo los archivos utiles de la aplicacion y de uso 
+
+## *¿Que dificultades hay? 🤔
+
+No sabemos realmente cual es el problema con el codigo, no deja verificar los numeros por Input
+
+## *¿Que vamos a hacer? 👌
+Cambiar el codigo fuente para buscar donde pueden estar los fallos de la aplicacion
