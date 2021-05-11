@@ -91,7 +91,7 @@ public class Programa{
 				imprimir("4. Detener Canción");
 				imprimir("5. Imprimir lista de Canciones");
 				imprimir("6. Crear nueva Lista de reproduccion");
-				imprimir("7. Salir");			   |");
+				imprimir("7. Salir");			   ");
 	}
 
 	public static void main(String[] args) {
