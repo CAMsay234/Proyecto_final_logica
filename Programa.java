@@ -1,62 +1,9 @@
 import org.fusesource.jansi.AnsiConsole;
 import static org.fusesource.jansi.Ansi.*;
 import static org.fusesource.jansi.Ansi.Color.*;
+import java.util.*;
 
 public class Programa{
-
-	public static void displayVacio(int n,int m){
-		for (int i=0;i<n;i++) 
-		{
-			for (int j=0;j<m;j++)
-			{
-				System.out.print("  ");
-			}
-			System.out.println();
-		}
-	}
-
-	public static void imprimirDisplay(int n,int m){
-		String simbolo = Math.random()>5?"*":" ";
-		for (int i=0;i<n;i++) 
-		{
-			if(i+1==n)
-			{
-				simbolo = "#";
-
-			}
-			for (int j=0;j<m;j++)
-			{
-				System.out.print(i+simbolo);
-			}
-			System.out.println();
-		}
-	}
-
-	public static void borrarDisplay(int n){
-		//Se le suma 1 si se ejecuta con el bat, ya que la ultima linea es el pause
-		//for (int i=0;i<=n;i++){
-			//System.out.println(ansi().cursorUpLine(i));
-		//}
-		System.out.println(ansi().cursor(2,1));
-		displayVacio(5,6);
-		System.out.println(ansi().cursor(1,1));
-		System.out.println(ansi().reset());
-	}
-
-	public static void animar() throws InterruptedException{
-		
-
-		Thread.sleep(1000);
-		
-/*
-		for(int i=0;i<10;i++){
-			System.out.print("\r");
-			//System.out.print("\r");
-			texto = texto+nuevo.charAt(i);
-			System.out.print(texto);
-			Thread.sleep(1000);
-		}*/
-	}
 
 	public static String convertirUnicode(String letra,String cadena){
 		
@@ -68,6 +15,8 @@ public class Programa{
 		if(indice>=0 )
 		{
 			switch(letra){
+				case "Á": caracter = '\u00C1';
+						  break;
 				case "á": caracter = '\u00E1';
 					      break;
 				case "é": caracter = '\u00E9';
@@ -82,7 +31,7 @@ public class Programa{
 					      break;
 			}
 			// System.out.println("\\u" + Integer.toHexString('÷' | 0x10000).substring(1));
-			str.replace(indice,indice+2,""+caracter);
+			str.replace(indice,indice+1,""+caracter);
 		}
 
 		return str.toString();
@@ -91,7 +40,8 @@ public class Programa{
 	public static void imprimir(String cadena)
 	{
 		String str; 
-		str = convertirUnicode("á",cadena);
+		str = convertirUnicode("Á",cadena);
+		str = convertirUnicode("á",str);
 		str = convertirUnicode("é",str);
 		str = convertirUnicode("í",str);
 		str = convertirUnicode("ó",str);
@@ -104,17 +54,55 @@ public class Programa{
 	public static StringBuilder obtenerLetraCancion(int inicio,int fin, String[]data)
 	{
 		StringBuilder str = new StringBuilder();
+		StringTokenizer temp;
 
 		for(int i = inicio; i<=fin; i++)
 		{
-			str.append(data[i]+"\n");
+			//System.out.println("@  "+data[i]);
+
+			temp = new StringTokenizer(data[i],";");
+
+			while(temp.hasMoreTokens())
+			{
+				System.out.print(temp.nextToken()+" ");
+			}
+			System.out.println();
+			//str.append(data[i]+"\n");
 		}
 
 		return str;
 	}
 
+	public static void menu(){
+		System.out.println("	 __________________________________________________________________");
+		System.out.println("	|                              _     _                             |");
+		System.out.println("	|                             ( \\---/ )                            |");
+		System.out.println("	|                              ) . . (                             |");
+		System.out.println("	|________________________,--._(___Y___)_,--.____________________hjw|");
+		System.out.println("	|                        `--'           `--'                       |");
+		System.out.println("	|		                  _   _  __                        |");
+		System.out.println("	|		                 | | (_)/ _|                       |");
+		System.out.println("	|		  ___ _ __   ___ | |_ _| |_ _   _                  |");
+		System.out.println("	|		 / __| '_ \\ / _ \\| __| |  _| | | |                 |");
+		System.out.println("	|		 \\__ \\ |_) | (_) | |_| | | | |_| |                 |");
+		System.out.println("	|		 |___/ .__/ \\___/ \\__|_|_|  \\__, |                 |");
+		System.out.println("	|		     | |                     __/ |                 |");
+		System.out.println("	|		     |_|                    |___/                  |");
+				  imprimir("	|                                                          	   |");
+				  imprimir("	|                    Ingrese una opción así:		 	   |");
+				  imprimir("	|                    1. Buscar canción			 	   |");
+				  imprimir("	|                    2. Reproducir canción			   |");
+				  imprimir("	|                    3. Mostrar Letra				   |");
+				  imprimir("	|                    4. Detener Canción				   |");
+				  imprimir("	|                    5. Imprimir lista de Canciones		   |");
+				  imprimir("	|                    6. Salir					   |");
+		System.out.println("	|__________________________________________________________________|");
+		System.out.print("	Spotify$ ");
+	}
+
 	public static void main(String[] args) {
-		AnsiConsole.systemInstall();
+		
+		//AnsiConsole.systemInstall();
 		
 		Audio audio = new Audio();
 		int centinela = 0;	
@@ -128,48 +116,24 @@ public class Programa{
 		info_canciones = ConsoleData.dataList(canciones);
 
 		try{
-			//Consolas con vt100 http://braun-home.net/michael/info/misc/VT100_commands.htm
-			//System.out.println("Hallo \033[32mgreen\033[0m-text.");
-			//System.out.println(ansi().eraseScreen().render("@|red Hello|@ @|green World|@"));
-			//System.out.println( ansi().fg(RED).a("Hello").newline().fg(GREEN).a(" World").reset() );
-			//System.out.println("\007");
 			
-			/*imprimirDisplay(4,16);
-			Thread.sleep(1000);
-			borrarDisplay(4);
-			imprimirDisplay(4,16);*/
-
-
 			do{
+
+				// imprimir(""+RandomHelper.random(1,10));
+
 				System.out.println();
 				//TODO: Terminar la funcion para que imprima todos los caracteres especiales que use el programa
-				public class Programa{
-					public static void main(String[] args) {
-				
-				System.out.println("  _  __               _                        _        		");
-				System.out.println(" | |/ /              | |                      | |       		");
-				System.out.println(" | ' / __ _ _ __ ___ | | _____  __ _ _ __   __| | ___   		");
-				System.out.println(" |  < / _` | '__/ _ \\| |/ / _ \\/ _` | '_ \\ / _` |/ _ \\  	");
-				System.out.println(" | . \\ (_| | | | (_) |   <  __/ (_| | | | | (_| | (_) | 		");
-				System.out.println(" |_|\\_\\__,_|_|  \\___/|_|\\_\\___|\\__,_|_| |_|\\__,_|\\___/  ");
-																		
-				
-					}
-				}
-				imprimir("Ingrese una opción así:");
-				imprimir("1. Buscar canción");
-				imprimir("2. Reproducir canción");
-				imprimir("3. Mostrar Letra");
-				imprimir("4. Detener Canción");
-				imprimir("5. Imprimir lista de Canciones");
-				imprimir("6. Crear nueva Lista de reproduccion");
-				imprimir("7. Salir");
+				menu();
 				//TODO: Ojo falta validar la entrada de datos
+				//TODO: Recuerde usar el helper ConsoleInput y validar
 				centinela = ConsoleInput.getInt();
 
 				if(centinela == 2)
 				{
-					audio.seleccionarCancion(info_canciones[1][ConsoleData.RUTA_CANCION]);
+					//TODO: Controlar que el archivo de la cancion exista
+					imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
+					indice_cancion = ConsoleInput.getInt();
+					audio.seleccionarCancion(info_canciones[indice_cancion][ConsoleData.RUTA_CANCION]);
 					audio.reproducir();
 				}
 
@@ -184,8 +148,7 @@ public class Programa{
 					fin_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.FIN_CANCION]);
 					
 					letra_cancion = obtenerLetraCancion(inicio_letra,fin_letra,canciones);
-
-					imprimir(letra_cancion.toString());
+					//imprimir(letra_cancion.toString());
 				}
 
 				if(centinela == 4)
@@ -220,35 +183,7 @@ public class Programa{
 					//TODO:Explicar como funciona el archivo y como se analiza cada línea
 					//TODO:Imprimir la lista completa
 				}
-				/* 
-				if(centinela==6)
-				{
-					/* La informacion de las canciones esta
-					en la matriz info_canciones, acá un ejemplo de como imprimir
-					el nombre de la primer canción y su autor */
-					/*
-					//TODO: Ojo, falta validar el valor ingresado
-					imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
-					indice_cancion = ConsoleInput.getInt();
 
-					inicio_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.INICIO_CANCION]);
-					fin_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.FIN_CANCION]);
-
-					System.out.println();
-					imprimir("Inicio letra "+inicio_letra);
-					imprimir("Fin letra "+fin_letra);
-					imprimir("Nombre "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]);
-					imprimir("Autor "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
-					imprimir("Archivo "+info_canciones[indice_cancion][ConsoleData.RUTA_CANCION]);
-
-					imprimir("Primera estrofa: "+canciones[inicio_letra]);
-					imprimir("Última estrofa: "+canciones[fin_letra]);
-					
-					//TODO:Convertir a unicode mayúsculas y caracteres especiales
-					//TODO:Explicar como funciona el archivo y como se analiza cada línea
-					//TODO:Imprimir la lista completa
-				}*/
-				
 			}while(centinela!=6);
 		}
 		catch(Exception e)
