@@ -74,30 +74,24 @@ public class Programa{
 	}
 
 	public static void menu(){
-		System.out.println("	 __________________________________________________________________");
-		System.out.println("	|                              _     _                             |");
-		System.out.println("	|                             ( \\---/ )                            |");
-		System.out.println("	|                              ) . . (                             |");
-		System.out.println("	|________________________,--._(___Y___)_,--.____________________hjw|");
-		System.out.println("	|                        `--'           `--'                       |");
-		System.out.println("	|		                  _   _  __                        |");
-		System.out.println("	|		                 | | (_)/ _|                       |");
-		System.out.println("	|		  ___ _ __   ___ | |_ _| |_ _   _                  |");
-		System.out.println("	|		 / __| '_ \\ / _ \\| __| |  _| | | |                 |");
-		System.out.println("	|		 \\__ \\ |_) | (_) | |_| | | | |_| |                 |");
-		System.out.println("	|		 |___/ .__/ \\___/ \\__|_|_|  \\__, |                 |");
-		System.out.println("	|		     | |                     __/ |                 |");
-		System.out.println("	|		     |_|                    |___/                  |");
-				  imprimir("	|                                                          	   |");
-				  imprimir("	|                    Ingrese una opción así:		 	   |");
-				  imprimir("	|                    1. Buscar canción			 	   |");
-				  imprimir("	|                    2. Reproducir canción			   |");
-				  imprimir("	|                    3. Mostrar Letra				   |");
-				  imprimir("	|                    4. Detener Canción				   |");
-				  imprimir("	|                    5. Imprimir lista de Canciones		   |");
-				  imprimir("	|                    6. Salir					   |");
-		System.out.println("	|__________________________________________________________________|");
-		System.out.print("	Spotify$ ");
+		System.out.println("  _  __               _                        _        		");
+				System.out.println(" | |/ /              | |                      | |       		");
+				System.out.println(" | ' / __ _ _ __ ___ | | _____  __ _ _ __   __| | ___   		");
+				System.out.println(" |  < / _` | '__/ _ \\| |/ / _ \\/ _` | '_ \\ / _` |/ _ \\  	");
+				System.out.println(" | . \\ (_| | | | (_) |   <  __/ (_| | | | | (_| | (_) | 		");
+				System.out.println(" |_|\\_\\__,_|_|  \\___/|_|\\_\\___|\\__,_|_| |_|\\__,_|\\___/  ");
+																		
+				
+					}
+				}
+				imprimir("Ingrese una opción así:");
+				imprimir("1. Buscar canción");
+				imprimir("2. Reproducir canción");
+				imprimir("3. Mostrar Letra");
+				imprimir("4. Detener Canción");
+				imprimir("5. Imprimir lista de Canciones");
+				imprimir("6. Crear nueva Lista de reproduccion");
+				imprimir("7. Salir");			   |");
 	}
 
 	public static void main(String[] args) {
