@@ -90,3 +90,16 @@ No sabemos realmente cual es el problema con el codigo, no deja verificar los nu
 
 ## *¿Que vamos a hacer? 👌
 Cambiar el codigo fuente para buscar donde pueden estar los fallos de la aplicacion
+
+# 18 de mayo
+## *¿Que se hizo la reunion anterior? 👊
+
+encontramos y eliminamops los fallos del compilador de la app y ordenamos el menu
+
+## *¿Que dificultades hay? 🤔
+
+Estamos comprobando 1 a 1 los diferentes metodos que hay para hacer mas llamativa la app
+
+## *¿Que vamos a hacer? 👌
+Terminar de analizar los To Do de la app para entregar el producto final
+
