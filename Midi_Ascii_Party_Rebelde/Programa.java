@@ -74,7 +74,7 @@ public class Programa{
 	}
 
 	public static void menu(){
-		SSystem.out.println("  _  __               _                        _                 ");
+	 System.out.println("  _  __               _                        _                 ");
  		 System.out.println("| |/ /              | |                      | |      		   "); 
  		 System.out.println("| ' / __ _ _ __ ___ | | _____  __ _ _ __   __| | ___  		   "); 
  		 System.out.println("|  < / _` | '__/ _ \\| |/ / _ \\/ _` | '_ \\ / _` |/ _ \\ 	   "); 
@@ -89,16 +89,15 @@ public class Programa{
 		System.out.println("    \\\\_|_||_||_|_//  \\ |                 				       ");
 		System.out.println("     \\___________/    \\|                  					   ");
 
- 		 
-		System.out.println(" 																    ");
-		System.out.println("      Ingrese una opción así:					    ");
-		System.out.println("      1. Buscar canción  						    ");
-		System.out.println("      2. Reproducir canción  					    ");
-		System.out.println("      3. Mostrar Letra							    ");
-		System.out.println("      4. Detener canción 						    ");
-		System.out.println("      5. Imprimir lista de Canciones				    ");
-		System.out.println("      6. Salir 									    ");
-
+imprimir("	|                                                          	   |");
+imprimir("	|                    Ingrese una opción así:		 	   |");
+ imprimir("	|                    1. Buscar canción			 	   |");
+imprimir("	|                    2. Reproducir canción			   |");
+imprimir("	|                    3. Mostrar Letra				   |");
+imprimir("	|                    4. Detener Canción				   |");
+imprimir("	|                    5. Imprimir lista de Canciones		   |");
+imprimir("	|                    6. Salir					   |");
+System.out.println("	|__________________________________________________________________|");
 	}
 
 	public static void main(String[] args) {
