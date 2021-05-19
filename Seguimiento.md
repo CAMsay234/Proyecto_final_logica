@@ -94,7 +94,7 @@ Cambiar el codigo fuente para buscar donde pueden estar los fallos de la aplicac
 # 18 de mayo
 ## *¿Que se hizo la reunion anterior? 👊
 
-encontramos y eliminamops los fallos del compilador de la app y ordenamos el menu
+encontramos y eliminamos los fallos del compilador de la app y ordenamos el menú
 
 ## *¿Que dificultades hay? 🤔
 
