@@ -9,7 +9,8 @@ reproducir automaticamente, además de que podrá gozar de las otras funcionalid
 autor, álbum, fecha de publicación y ruta en youtube por si quiere escuchar la canción original. Les deseamos a todos una buena experiencia.
 Repositorio con el seguimiento y trabajo para el proyecto final para lógica de programación Karokeando.
 
-
+## Video ejecución.
+https://youtu.be/cffLe1elZXg
 
 ### Integrantes del equipo.
 >- _😎Camilo Velasquez Hincapie😎_
