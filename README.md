@@ -2,12 +2,16 @@
 ![N|Solid](https://image.freepik.com/vector-gratis/diseno-banner-fiesta-karaoke_95169-774.jpg)
 
 ## Descripción del proyecto.
-Para este proyecto se realizara un playlist-Karaoke a partir de las canciones recopiladas en el repositorio Midi_Ascii_Party_Rebelde.
-Repositorio con el seguimiento y trabajo para el proyecto final para lógica de programación.
+Para este proyecto se realizara un playlist-personalizable a partir de las canciones recopiladas en el repositorio Midi_Ascii_Party_Rebelde.
+Con este programa el usuario tendra la experiencia de poder reproducir canciones en archivo .midi a su preferencia, dando la oportunidad
+de que este pueda generar su propia playlist en el orden que este desee, así podra tener al gusto el orden dr las canciones que desee 
+reproducir automaticamente, además de que podrá gozar de las otras funcionalidades tales como: ver la letra de la canción, ver su nombre,
+autor, álbum, fecha de publicación y ruta en youtube por si quiere escuchar la canción original. Les deseamos a todos una buena experiencia.
+Repositorio con el seguimiento y trabajo para el proyecto final para lógica de programación Karokeando.
 
 ### Integrantes del equipo.
 >- _😎Camilo Velasquez Hincapie😎_
 >- _😎Miguel Angel Velez Suarez😎_
 
 ### Recursos.
--[dirección de la imagen](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Fvector-premium%2Fdiseno-banner-fiesta-karaoke_5140599.htm&psig=AOvVaw1HZLFSyIiUCJwMnCJBzOkG&ust=1620221544092000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiPoOORsPACFQAAAAAdAAAAABAD)
+-[dirección de la imagen](https://lh3.googleusercontent.com/fSSEBTj73UPglpITXiJm05h06CHLNjzsrmpigMB9LftfVOqvHb-97AdHpVF0RlOGAVpYn6M=s170)
