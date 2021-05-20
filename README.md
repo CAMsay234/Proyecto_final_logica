@@ -1,5 +1,5 @@
 # Proyecto_final_logica Karokeando
-![N|Solid](https://image.freepik.com/vector-gratis/diseno-banner-fiesta-karaoke_95169-774.jpg)
+![N|Solid](https://lh3.googleusercontent.com/fSSEBTj73UPglpITXiJm05h06CHLNjzsrmpigMB9LftfVOqvHb-97AdHpVF0RlOGAVpYn6M=s170)
 
 ## Descripción del proyecto.
 Para este proyecto se realizara un playlist-personalizable a partir de las canciones recopiladas en el repositorio Midi_Ascii_Party_Rebelde.
