@@ -9,12 +9,12 @@ reproducir automaticamente, además de que podrá gozar de las otras funcionalid
 autor, álbum, fecha de publicación y ruta en youtube por si quiere escuchar la canción original. Les deseamos a todos una buena experiencia.
 Repositorio con el seguimiento y trabajo para el proyecto final para lógica de programación Karokeando.
 
-## Video ejecución.
-https://youtu.be/cffLe1elZXg
-
 ### Integrantes del equipo.
 >- _😎Camilo Velasquez Hincapie😎_
 >- _😎Miguel Angel Velez Suarez😎_
+
+## Video ejecución.
+https://youtu.be/cffLe1elZXg
 
 ### Recursos.
 -[dirección de la imagen](https://lh3.googleusercontent.com/fSSEBTj73UPglpITXiJm05h06CHLNjzsrmpigMB9LftfVOqvHb-97AdHpVF0RlOGAVpYn6M=s170)
