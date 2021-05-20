@@ -62,7 +62,7 @@ public class ConsoleFile{
 		int filas = 0,columnas = 0;
 
 		for (String token : al) {
-			line = new StringTokenizer(token,";");
+			line = new StringTokenizer(token,"");
 			columnas = 0;
 			while (line.hasMoreTokens())
 			{
@@ -78,7 +78,7 @@ public class ConsoleFile{
 	public static String[] processLine(String line)
 	{
 		ArrayList<String> tokens = new ArrayList<String>();
-		StringTokenizer st = new StringTokenizer(line,";");
+		StringTokenizer st = new StringTokenizer(line,"");
 
 		while (st.hasMoreTokens()){
             tokens.add(st.nextToken()); 
@@ -132,7 +132,7 @@ public class ConsoleFile{
 	}
 
 	public static String[] stringToArray(String str){
-		StringTokenizer st = new StringTokenizer(str,";");
+		StringTokenizer st = new StringTokenizer(str,"");
 		String[] out = new String[st.countTokens()];
 		int count = 0;
 		while(st.hasMoreTokens()){

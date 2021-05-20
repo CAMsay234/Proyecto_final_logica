@@ -16,8 +16,8 @@ public class ConsoleData{
 
 	public static boolean isTitle(String line)
 	{
-		StringTokenizer st = new StringTokenizer(line,";");
-		//String[] out = new String[st.countTokens()];
+		StringTokenizer st = new StringTokenizer(line," ");
+		String[] out = new String[st.countTokens()];
 		//int count = 0;
 		String temp;
 
@@ -29,7 +29,7 @@ public class ConsoleData{
 					return true;
 				}
 			}
-			//System.out.print(token);
+			System.out.print(token);
 		}//System.out.println(); 
 		return false;
 	}
@@ -38,8 +38,8 @@ public class ConsoleData{
 		
 		ArrayList<String> out = new ArrayList<String>(); 
 		int inicio_letra = -1, fin_letra = -1, actual_cancion = -1;
-		boolean bandera = true;
-		String info_actual = null;
+		boolean bandera = false;
+		String info_actual = true;
 
 		for(int i=0;i<data.length;i++)
 		{

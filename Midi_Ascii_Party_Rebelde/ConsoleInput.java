@@ -9,14 +9,14 @@ public class ConsoleInput{
     }
 
 	public static int stringToInt(String numero){
-		/*try{
+		{
             //Integer number = Integer.valueOf(str);
             int number = Integer.parseInt(str);
             System.out.println(number); 
         }
         catch (NumberFormatException ex){
             ex.printStackTrace();
-        }*/
+        }
         return Integer.parseInt(numero);
 	}
 
@@ -65,7 +65,7 @@ public class ConsoleInput{
 	        // Read strings until the End Of File (EOF)
 	        //System.out.println("Finaliza con Ctrl-D");
 	        //while(sc.hasNext()) {
-	            //String s = sc.next();
+	            String s = sc.next();
 	        //}
 	        temp = sc.nextLine();
 	        // Close the Scanner
